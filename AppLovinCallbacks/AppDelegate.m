@@ -8,7 +8,9 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+#import <HeyzapAds/HeyzapAds.h>
+
+@interface AppDelegate () <HZIncentivizedAdDelegate>
 
 @end
 
@@ -17,7 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [HeyzapAds startWithPublisherID:@"1234"];
+    [HZIncentivizedAd fetch];
+    [HZIncentivizedAd setDelegate:self];
     return YES;
+}
+
+/** Called when a user successfully completes viewing an ad */
+- (void)didCompleteAdWithTag: (NSString *) tag {
+    NSLog(@"didCompleteAdWithTag");
+}
+/** Called when a user does not complete the viewing of an ad */
+- (void)didFailToCompleteAdWithTag: (NSString *) tag {
+    NSLog(@"didFailToCompleteAdWithTag");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

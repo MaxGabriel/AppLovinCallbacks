@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <HeyzapAds/HeyzapAds.h>
 
 @interface ViewController ()
 
@@ -17,11 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self performSelector:@selector(showDebug) withObject:nil afterDelay:10];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)showDebug {
+    [HZIncentivizedAd show];
 }
 
 @end

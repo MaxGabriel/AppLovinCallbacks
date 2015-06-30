@@ -14,6 +14,8 @@
 		502C86581B41E57900BD0FBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502C86571B41E57900BD0FBD /* Images.xcassets */; };
 		502C865B1B41E57900BD0FBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502C86591B41E57900BD0FBD /* LaunchScreen.xib */; };
 		502C86671B41E57900BD0FBD /* AppLovinCallbacksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 502C86661B41E57900BD0FBD /* AppLovinCallbacksTests.m */; };
+		502C86711B41E5F700BD0FBD /* libAppLovinSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 502C86701B41E5F700BD0FBD /* libAppLovinSdk.a */; };
+		503CF3021B43421200AF4F76 /* HeyzapAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503CF3011B43421200AF4F76 /* HeyzapAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,32 @@
 		502C86601B41E57900BD0FBD /* AppLovinCallbacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppLovinCallbacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		502C86651B41E57900BD0FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		502C86661B41E57900BD0FBD /* AppLovinCallbacksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppLovinCallbacksTests.m; sourceTree = "<group>"; };
+		502C86701B41E5F700BD0FBD /* libAppLovinSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppLovinSdk.a; sourceTree = "<group>"; };
+		502C86741B41E8C400BD0FBD /* ALAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAd.h; sourceTree = "<group>"; };
+		502C86751B41E8C400BD0FBD /* ALAdDisplayDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAdDisplayDelegate.h; sourceTree = "<group>"; };
+		502C86761B41E8C400BD0FBD /* ALAdLoadDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAdLoadDelegate.h; sourceTree = "<group>"; };
+		502C86771B41E8C400BD0FBD /* ALAdRewardDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAdRewardDelegate.h; sourceTree = "<group>"; };
+		502C86781B41E8C400BD0FBD /* ALAdService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAdService.h; sourceTree = "<group>"; };
+		502C86791B41E8C400BD0FBD /* ALAdSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAdSize.h; sourceTree = "<group>"; };
+		502C867A1B41E8C400BD0FBD /* ALAdType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAdType.h; sourceTree = "<group>"; };
+		502C867B1B41E8C400BD0FBD /* ALAdUpdateDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAdUpdateDelegate.h; sourceTree = "<group>"; };
+		502C867C1B41E8C400BD0FBD /* ALAdVideoPlaybackDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAdVideoPlaybackDelegate.h; sourceTree = "<group>"; };
+		502C867D1B41E8C400BD0FBD /* ALAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAdView.h; sourceTree = "<group>"; };
+		502C867E1B41E8C400BD0FBD /* ALErrorCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALErrorCodes.h; sourceTree = "<group>"; };
+		502C867F1B41E8C400BD0FBD /* ALIncentivizedInterstitialAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALIncentivizedInterstitialAd.h; sourceTree = "<group>"; };
+		502C86801B41E8C400BD0FBD /* ALInterstitialAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALInterstitialAd.h; sourceTree = "<group>"; };
+		502C86811B41E8C400BD0FBD /* ALNativeAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALNativeAd.h; sourceTree = "<group>"; };
+		502C86821B41E8C400BD0FBD /* ALNativeAdLoadDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALNativeAdLoadDelegate.h; sourceTree = "<group>"; };
+		502C86831B41E8C400BD0FBD /* ALNativeAdPrecacheDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALNativeAdPrecacheDelegate.h; sourceTree = "<group>"; };
+		502C86841B41E8C400BD0FBD /* ALNativeAdService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALNativeAdService.h; sourceTree = "<group>"; };
+		502C86851B41E8C400BD0FBD /* ALNullabilityAnnotations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALNullabilityAnnotations.h; sourceTree = "<group>"; };
+		502C86861B41E8C400BD0FBD /* ALPostbackDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALPostbackDelegate.h; sourceTree = "<group>"; };
+		502C86871B41E8C400BD0FBD /* ALPostbackService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALPostbackService.h; sourceTree = "<group>"; };
+		502C86881B41E8C400BD0FBD /* ALSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALSdk.h; sourceTree = "<group>"; };
+		502C86891B41E8C400BD0FBD /* ALSdkSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALSdkSettings.h; sourceTree = "<group>"; };
+		502C868A1B41E8C400BD0FBD /* ALSwiftHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALSwiftHeaders.h; sourceTree = "<group>"; };
+		502C868B1B41E8C400BD0FBD /* ALTargetingData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALTargetingData.h; sourceTree = "<group>"; };
+		503CF3011B43421200AF4F76 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeyzapAds.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503CF3021B43421200AF4F76 /* HeyzapAds.framework in Frameworks */,
+				502C86711B41E5F700BD0FBD /* libAppLovinSdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +111,32 @@
 		502C86491B41E57900BD0FBD /* AppLovinCallbacks */ = {
 			isa = PBXGroup;
 			children = (
+				503CF3011B43421200AF4F76 /* HeyzapAds.framework */,
+				502C86701B41E5F700BD0FBD /* libAppLovinSdk.a */,
+				502C86741B41E8C400BD0FBD /* ALAd.h */,
+				502C86751B41E8C400BD0FBD /* ALAdDisplayDelegate.h */,
+				502C86761B41E8C400BD0FBD /* ALAdLoadDelegate.h */,
+				502C86771B41E8C400BD0FBD /* ALAdRewardDelegate.h */,
+				502C86781B41E8C400BD0FBD /* ALAdService.h */,
+				502C86791B41E8C400BD0FBD /* ALAdSize.h */,
+				502C867A1B41E8C400BD0FBD /* ALAdType.h */,
+				502C867B1B41E8C400BD0FBD /* ALAdUpdateDelegate.h */,
+				502C867C1B41E8C400BD0FBD /* ALAdVideoPlaybackDelegate.h */,
+				502C867D1B41E8C400BD0FBD /* ALAdView.h */,
+				502C867E1B41E8C400BD0FBD /* ALErrorCodes.h */,
+				502C867F1B41E8C400BD0FBD /* ALIncentivizedInterstitialAd.h */,
+				502C86801B41E8C400BD0FBD /* ALInterstitialAd.h */,
+				502C86811B41E8C400BD0FBD /* ALNativeAd.h */,
+				502C86821B41E8C400BD0FBD /* ALNativeAdLoadDelegate.h */,
+				502C86831B41E8C400BD0FBD /* ALNativeAdPrecacheDelegate.h */,
+				502C86841B41E8C400BD0FBD /* ALNativeAdService.h */,
+				502C86851B41E8C400BD0FBD /* ALNullabilityAnnotations.h */,
+				502C86861B41E8C400BD0FBD /* ALPostbackDelegate.h */,
+				502C86871B41E8C400BD0FBD /* ALPostbackService.h */,
+				502C86881B41E8C400BD0FBD /* ALSdk.h */,
+				502C86891B41E8C400BD0FBD /* ALSdkSettings.h */,
+				502C868A1B41E8C400BD0FBD /* ALSwiftHeaders.h */,
+				502C868B1B41E8C400BD0FBD /* ALTargetingData.h */,
 				502C864E1B41E57900BD0FBD /* AppDelegate.h */,
 				502C864F1B41E57900BD0FBD /* AppDelegate.m */,
 				502C86511B41E57900BD0FBD /* ViewController.h */,
@@ -347,8 +403,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppLovinCallbacks",
+				);
 				INFOPLIST_FILE = AppLovinCallbacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppLovinCallbacks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +422,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppLovinCallbacks",
+				);
 				INFOPLIST_FILE = AppLovinCallbacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppLovinCallbacks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +490,7 @@
 				502C866C1B41E57900BD0FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		502C866D1B41E57900BD0FBD /* Build configuration list for PBXNativeTarget "AppLovinCallbacksTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +499,7 @@
 				502C866F1B41E57900BD0FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

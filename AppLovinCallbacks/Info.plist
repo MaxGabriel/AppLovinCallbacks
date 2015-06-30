@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>Heyzap.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>com.EnterpriseHeyzap.HeyzapSDKTest</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -22,6 +22,8 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>AppLovinSdkKey</key>
+	<string>TvPRfJ0dxmTLiGoZQi9o3_5zG0d0FVQoOqD38Eh4-9QhQCFrvPdyOkwfkXfz24mRuzU1CB5BLVtmh7aaXDXwxS</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

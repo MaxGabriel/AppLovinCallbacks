@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@import AVFoundation;
+@import AdSupport;
+@import CoreMedia;
+@import CoreTelephony;
+@import MediaPlayer;
+@import MobileCoreServices;
+@import SystemConfiguration;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
